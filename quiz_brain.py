@@ -17,6 +17,7 @@ class QuizBrain:
       else:
         print("that was wrong")
       print(f"The correct anser is {correct_answer}")
+      print("\n")
 
   def next_question(self):
     current_question = self.question_list[self.question_number]
