@@ -11,4 +11,6 @@ for item in question_data:
   question_bank.append(new_question)
 
   query = QuizBrain(question_bank)
-  print(query.next_question())
+  
+while query.still_has_querries():
+  query.next_question()
